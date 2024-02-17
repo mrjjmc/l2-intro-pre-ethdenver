@@ -41,7 +41,7 @@ export default async function (hre: HardhatRuntimeEnvironment) {
   // // Wait until the deposit is processed on zkSync
   // await depositHandle.wait();
 
-  // Deploy this contract. The returned object will be of a `Contract` type, similarly to ones in `ethers`.
+  // Deploy this contract. The returned object will be of a `Contract` type, similar to the ones in `ethers`.
   const contract = await deployer.deploy(artifact);
 
   //obtain the Constructor Arguments
