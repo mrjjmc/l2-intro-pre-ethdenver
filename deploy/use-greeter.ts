@@ -35,7 +35,7 @@ export default async function (hre: HardhatRuntimeEnvironment) {
     signer
   );
 
-  // Read message from contract
+  // Read the message from contract
   console.log(`The message is ${await contract.greet()}`);
 
   // send transaction to update the message
